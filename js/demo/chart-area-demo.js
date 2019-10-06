@@ -34,7 +34,7 @@ var myLineChart = new Chart(ctx, {
   data: {
     labels: ["2008", "2009", "2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019"],
     datasets: [{
-      label: "Earnings",
+      label: "GDP Growth",
       lineTension: 0.3,
       backgroundColor: "rgba(78, 115, 223, 0.05)",
       borderColor: "rgba(78, 115, 223, 1)",
@@ -46,7 +46,7 @@ var myLineChart = new Chart(ctx, {
       pointHoverBorderColor: "rgba(78, 115, 223, 1)",
       pointHitRadius: 10,
       pointBorderWidth: 2,
-      data: [0, 2150, 2270, 2400, 25803, 26370, 27005, 27515, 28059, 28656, 29286, 29932],
+      data: [20500, 21500, 22700, 24000, 25803, 26370, 27005, 27515, 28059, 28656, 29286, 29932],
     }],
   },
   options: {
